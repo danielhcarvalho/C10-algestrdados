@@ -56,7 +56,7 @@ public class C10EX08
         System.out.printf("Quantidade total de cidades do estados: %d\nPopulação total do estado: %d\nPercentual de eleitores (em relação a população total do estado): %.2f%%\nQuantidade de cidades que possuem mais mulheres do que homens: %d\nMédia da quantidade total de homens do estado: %d\n", qntCidades, populacaoEstado, percentualEleitoresEstado, maisMulheres, mediaHomens);
         System.out.println();
         System.out.printf("Nome da cidade com menor população: %s\nPopulação total da cidade com menor população: %d", nomeMenorCidade, populacaoMenorCidade);
+        cidades.close();
     }
 
-    cidades.close();
 }

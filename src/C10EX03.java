@@ -1,6 +1,4 @@
-
 import javax.swing.JOptionPane;
-
 public class C10EX03 
 {
     public static void main(String[] args) 
